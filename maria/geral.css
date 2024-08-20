@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(23, 77, 2);
+    text-align: justify;
+}
+
+main{
+    background-color: rgb(23, 77, 2);
+    position: relative;
+}
+
+footer{
+    background-color: rgb(243, 198, 115, 0.9);
+    background-position: absolute;
+    height: 125px;
+    margin-top: 2.5%;
+}
+
+.title{
+    color: rgb(243, 198, 115);    
+    font-size: 150px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text{
+    color: rgb(243, 198, 115);    
+    font-size: 25px;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    width: 80%;
+    text-indent: 50px;   
+}
+
+.textf{
+    color: rgb(23, 77, 2);
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* o inicio */
+.bgh1{
+    height: 550px;
+    position: top;
+    background-image: url(mariaf/h/h\ \(44\).JPG);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+
+/* como nos reencontramos */
+.bgh2{
+    height: 550px;
+    position: top;
+    background-image: url(mariaf/h/h\ \(5\).jpg);
+    background-attachment: fixed;
+    background-size:contain;
+    background-position: center;
+}
+.print{
+    border-radius: 25px;
+    height: 400px;
+    position: relative;
+    left: 42%;
+    transition: all 0.4s ease-in-out;
+}
+.print:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+/* uma vida inteira */
+.bgh3{
+    height: 550px;
+    position: top;
+    background-image: url(mariaf/h/h\ \(4\).jpg);
+    background-attachment: fixed;
+    background-size:contain;
+    background-position: center;
+}
+
+.spotify{
+    border-radius: 12%;
+    position: relative;
+    margin: 5%;
+    left:22.5%
+}
+.spotify>iframe{
+    border-radius: 20px;
+    height: 500px;
+    width: 50%;
+}
+
+
+
+
+/* beinlove */
+.bgh4{
+    height: 550px;
+    position: top;
+    background-image: url(mariaf/h/bil.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.titlef{
+    color: rgb(223, 21, 21);
+    font-size: 150px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.textg{
+    color: rgb(243, 198, 115);
+    font-size: 25px;
+    left: 30%;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+}
+
+.imgh{
+    display: inline-block;
+    position: relative;
+    margin: 5%;
+    margin-bottom: 0;
+}
+.imgh>img{
+    border-radius: 25px;
+    height: 215px;
+    position: relative;
+    display: inline;
+    margin: 2.5%;
+    transition: all 0.4s ease-in-out;
+}
+.imgh>img:hover{
+    transform: scale(1.2);
+}
+.imgv{
+    display: inline-block;
+    position: relative;
+    margin: 5%;
+    margin-top: 0;
+}
+.imgv>img{
+    border-radius: 25px;
+    height: 275px;
+    position: relative;
+    display: inline;
+    margin: 2.5%;
+    transition: all 0.4s ease-in-out;
+}
+.imgv>img:hover{
+    transform: scale(1.2);
+}
+
+.msc{
+    display: none;
+}
+
+
+
+
+
+
+/* seta */
+
+.se{
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    transition: all 0.5s ease-in-out;
+}
+.se:hover{
+    transform: scale(1.2);
+}
+.le{
+    display: inline-block;
+    position: relative;
+    left: 27%;
+}
+.le>a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(243, 198, 115);    
+}
+
+
+.arrowe {
+    position: relative;
+    display: inline-block;
+    left: 10%;
+    height: 10px; width: 10px;
+    border: 1px solid rgb(243, 198, 115, 0.8);  
+    border-width: 3px 3px 0 0;
+    transform: rotate(225deg);
+}
+
+.arrowe:before, .arrowe:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 10px; width: 10px;
+    border-width: 3px 3px 0 0;
+}
+
+.arrowe:before {
+    border: 1px solid rgb(243, 198, 115, 0.5);  
+    border-width: 3px 3px 0 0;
+    top: 7px; left: -10px;
+}
+
+.arrowe:after {
+    border: 1px solid rgb(243, 198, 115);  
+    border-width: 3px 3px 0 0;
+    top: -13px; left: 10px;
+}
+
+
+
+
+.sd{
+    display: inline-block;
+    position: relative;
+    left: 70.75%;
+    transition: all 0.5s ease-in-out ;
+}
+.sd:hover{
+    transform: scale(1.2);
+}
+.ld{
+    display: inline-block;
+}
+.ld>a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(243, 198, 115);    
+}
+
+
+.arrowd {
+    position: relative;
+    display: inline-block;
+    left: 10%;
+    height: 10px; width: 10px;
+    border: 1px solid rgb(243, 198, 115, 0.8);  
+    border-width: 3px 3px 0 0;
+    transform: rotate(45deg);
+}
+    
+.arrowd:before, .arrowd:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 10px; width: 10px;
+    border-width: 3px 3px 0 0;
+}
+    
+.arrowd:before {
+    border: 1px solid rgb(243, 198, 115, 0.5);  
+    border-width: 3px 3px 0 0;
+    top: 7px; left: -10px;
+}
+    
+.arrowd:after {
+    border: 1px solid rgb(243, 198, 115);  
+    border-width: 3px 3px 0 0;
+    top: -13px; left: 10px;
+}
+
+
+

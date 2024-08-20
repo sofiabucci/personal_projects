@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    text-align: justify;
+    background-color: rgb(243, 198, 115);
+}
+
+header{
+    height: 550px;
+    position: top;
+    background-image: url(mariaf/h/h\ \(21\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    background-color: rgb(243, 198, 115);
+    position: relative;
+}
+
+footer{
+    background-color: rgb(23, 77, 2, 0.9);
+    background-position: absolute;
+    height: 125px;
+    margin-top: 10%;
+}
+
+.title{
+    color: rgb(28, 94, 2);
+    font-size: 150px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text{
+    color: rgb(23, 77, 2);
+    font-size: 25px;
+    position: relative;
+    margin-top: 5%;
+    left: 30%;
+    width: 50%;
+}
+
+.textf{
+    color: rgb(243, 198, 115);
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.atalhos{
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    margin: 5%;
+    width: 50%;
+    left: 14.5%;
+    list-style: none;
+}
+
+.link{
+    display: inline-block;
+    background-color:rgb(23, 77, 2, 0.9) ;
+    border-radius: 25px;
+    text-decoration: none;
+    color: rgb(243, 198, 115);
+    border-radius: 25px;
+    outline-style: none;
+    position:relative;
+    margin: 2.5%;
+    width: 800px;
+    transition: all 0.4s ease-in-out ;
+}
+
+#l1:hover{
+    background-image: url(mariaf/h/h\ \(44\).JPG);
+    background-size:cover;
+    background-position: center;
+    font-weight: bold;
+    color: rgb(23, 77, 2);
+    transform: scale(1.2);
+}
+#l2:hover{
+    background-image: url(mariaf/h/h\ \(5\).jpg);
+    background-size:cover;
+    background-position: center;
+    font-weight: bold;
+    color: rgb(23, 77, 2);
+    transform: scale(1.2);
+}
+#l3:hover{
+    background-image: url(mariaf/h/h\ \(4\).jpg);
+    background-size:cover;
+    background-position: center;
+    font-weight: bold;
+    color: rgb(23, 77, 2);
+    transform: scale(1.2);
+}
+#l4:hover{
+    background-image: url(mariaf/h/bil.png);
+    background-size:cover;
+    font-weight: bold;
+    color: rgb(223, 21, 21);
+    transform: scale(1.2);
+}
